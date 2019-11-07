@@ -1,7 +1,6 @@
 language: java
 jdk: openjdk8
-scripts:
-  -./mvn clean install test -P single
+script: mvn test -P single
 addons:
   browserstack:
     username: "nithyamani3"
