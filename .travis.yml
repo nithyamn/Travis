@@ -1,2 +1,6 @@
 language: java
 jdk: openjdk8
+addons:
+  browserstack:
+    username: "nithyamani3"
+    access_key: "P4JKysg5WuchQxBfKQu1"
