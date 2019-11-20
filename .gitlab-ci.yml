@@ -1,0 +1,13 @@
+stages:
+  - test
+  
+variables:
+  BROWSERSTACK_USERNAME: "nithyamani3"
+  BROWSERSTACK_ACCESS_KEY: "P4JKysg5WuchQxBfKQu1"
+  
+test:
+  stage: test
+  script:
+    - echo $BROWSERSTACK_USERNAME
+    - echo $BROWSERSTACK_ACCESS_KEY
+    - mvn test -P single
